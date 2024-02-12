@@ -1,9 +1,32 @@
 body, html {
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
 
 #toCanvas {
   width: 300px; 
   height: 57px; 
+}
+
+#testText {
+  position: absolute;
+  width: 480px;
+  height: auto;
+  color: white;
+  font-size: 24px;
+}
+
+canvas {
+  position: absolute;
+}
+
+#hello {
+  
+  position: absolute;
+  font-size: 64px;
+  width: 720px;
+  color: yellow;
+  height: auto;
+  font-family: Arial Bold  , Helvetica, sans-serif;
 }
